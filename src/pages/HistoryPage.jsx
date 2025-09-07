@@ -4,9 +4,9 @@ import FileText from 'react-feather/dist/icons/file-text';
 const HistoryPage = () => {
   // Dummy data for medical history
   const history = [
-    { id: 1, date: '2025-08-15', doctor: 'Dr. Emily Carter', diagnosis: 'Routine Check-up', notes: 'Patient in good health. Advised to continue with regular exercise and balanced diet.' },
-    { id: 2, date: '2025-05-20', doctor: 'Dr. Ben Adams', diagnosis: 'Seasonal Allergies', notes: 'Prescribed antihistamines. Follow-up in one month if symptoms persist.' },
-    { id: 3, date: '2024-11-10', doctor: 'Dr. Emily Carter', diagnosis: 'Minor Sprain', notes: 'Ankle sprain from sports activity. Advised R.I.C.E. treatment.' },
+    { id: 1, date: '2025-08-15', doctor: 'Dr. Pramod Kadam', diagnosis: 'Routine Check-up', notes: 'Patient in good health. Advised to continue with regular exercise and balanced diet. Recommended local Maharashtrian diet modifications.' },
+    { id: 2, date: '2025-05-20', doctor: 'Dr. Anjali Deshmukh', diagnosis: 'Seasonal Allergies', notes: 'Prescribed antihistamines. Common during Pune monsoon season. Follow-up in one month if symptoms persist.' },
+    { id: 3, date: '2024-11-10', doctor: 'Dr. Pramod Kadam', diagnosis: 'Minor Sprain', notes: 'Ankle sprain from cricket practice. Advised R.I.C.E. treatment and traditional turmeric paste application.' },
   ];
 
   return (

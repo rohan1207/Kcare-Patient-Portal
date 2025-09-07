@@ -4,10 +4,10 @@ import Download from 'react-feather/dist/icons/download';
 const ReportsPage = () => {
   // Dummy data for lab reports
   const reports = [
-    { id: 1, name: 'Complete Blood Count (CBC)', date: '2025-08-14', status: 'Available' },
-    { id: 2, name: 'Lipid Panel', date: '2025-08-14', status: 'Available' },
-    { id: 3, name: 'Thyroid Function Test', date: '2025-06-05', status: 'Available' },
-    { id: 4, name: 'Urinalysis', date: '2025-06-05', status: 'Available' },
+    { id: 1, name: 'Complete Blood Count (CBC) - Krsnaa Diagnostics', date: '2025-08-14', status: 'Available' },
+    { id: 2, name: 'Lipid Profile - KCare Lab', date: '2025-08-14', status: 'Available' },
+    { id: 3, name: 'Thyroid Function Test (T3, T4, TSH) - Krsnaa Diagnostics', date: '2025-06-05', status: 'Available' },
+    { id: 4, name: 'Urine Routine & Microscopy - KCare Lab', date: '2025-06-05', status: 'Available' },
   ];
 
   return (

@@ -56,16 +56,16 @@ const MilestoneCard = ({ title, date, notes, nextSteps }) => (
 
 const DashboardPage = () => {
   const upcomingAppointment = {
-    doctor: 'Dr. Emily Carter',
-    specialty: 'Cardiologist',
+    doctor: 'Dr. Pramod Kadam',
+    specialty: 'General Surgeon',
     date: 'September 10, 2025',
     time: '11:00 AM',
   };
 
   const recentNotifications = [
-    { id: 1, message: 'Your treatment plan has been updated by Dr. Carter.' },
-    { id: 2, message: 'Reminder: Upcoming appointment for ECG test tomorrow.' },
-    { id: 3, message: 'New lab results for "Lipid Panel" are available.' },
+    { id: 1, message: 'Your treatment plan has been updated by Dr. Pramod Kadam.' },
+    { id: 2, message: 'Reminder: Upcoming follow-up consultation tomorrow.' },
+    { id: 3, message: 'New lab results from Krsnaa Diagnostics are available.' },
   ];
 
   return (

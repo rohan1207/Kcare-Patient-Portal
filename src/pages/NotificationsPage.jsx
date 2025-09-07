@@ -3,10 +3,10 @@ import React from 'react';
 const NotificationsPage = () => {
   // Dummy data for notifications
   const notifications = [
-    { id: 1, type: 'appointment', message: 'Your appointment with Dr. Smith is confirmed for tomorrow at 10:00 AM.', time: '1 day ago', read: false },
-    { id: 2, type: 'prescription', message: 'A new prescription for Amoxicillin has been added by your doctor.', time: '3 days ago', read: false },
-    { id: 3, type: 'report', message: 'Your latest blood test report is now available.', time: '5 days ago', read: true },
-    { id: 4, type: 'reminder', message: 'Reminder: Take your daily medication at 9:00 PM.', time: '1 week ago', read: true },
+    { id: 1, type: 'appointment', message: 'Your appointment with Dr. Pramod Kadam is confirmed for tomorrow at 10:00 AM at KCare Clinic, Pune.', time: '1 day ago', read: false },
+    { id: 2, type: 'prescription', message: 'A new prescription has been added by Dr. Pramod Kadam.', time: '3 days ago', read: false },
+    { id: 3, type: 'report', message: 'Your latest pathology report from Krsnaa Diagnostics is now available.', time: '5 days ago', read: true },
+    { id: 4, type: 'reminder', message: 'Reminder: Take your evening medication after dinner at 9:00 PM.', time: '1 week ago', read: true },
   ];
 
   return (

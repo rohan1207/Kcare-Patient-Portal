@@ -8,12 +8,12 @@ const ProfilePage = () => {
   // Dummy data for user profile
   const user = {
     name: 'Rohan Ambhore',
-    email: 'rohan.ambhore@example.com',
+    email: 'rohan.ambhore@gmail.com',
     phone: '+91 98765 43210',
     dob: '1990-01-01',
-    address: '123 Health St, Wellness City pune, 400001',
+    address: '123, Sai Apartment, Near Westend Mall, Aundh, Pune, Maharashtra - 411007',
     emergencyContact: {
-      name: 'Shweta',
+      name: 'Shweta Ambhore',
       relation: 'Mother',
       phone: '+91 98765 12345',
     },

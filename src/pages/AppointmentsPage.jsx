@@ -8,12 +8,12 @@ import User from 'react-feather/dist/icons/user';
 const AppointmentsPage = () => {
   // Dummy data for appointments
   const upcomingAppointments = [
-    { id: 1, doctor: 'Dr. Emily Carter', specialty: 'Cardiologist', date: '2025-09-10', time: '11:00 AM' },
+    { id: 1, doctor: 'Dr. Pramod Kadam', specialty: 'General Surgeon', date: '2025-09-10', time: '11:00 AM' },
   ];
 
   const pastAppointments = [
-    { id: 2, doctor: 'Dr. Ben Adams', specialty: 'Dermatologist', date: '2025-08-15', time: '02:30 PM' },
-    { id: 3, doctor: 'Dr. Emily Carter', specialty: 'Cardiologist', date: '2025-07-22', time: '10:00 AM' },
+    { id: 2, doctor: 'Dr. Anjali Deshmukh', specialty: 'Dermatologist', date: '2025-08-15', time: '02:30 PM' },
+    { id: 3, doctor: 'Dr. Pramod Kadam', specialty: 'General Surgeon', date: '2025-07-22', time: '10:00 AM' },
   ];
 
   return (
